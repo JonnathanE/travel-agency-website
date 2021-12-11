@@ -1,8 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 import tw from 'twin.macro';
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
 import { Logo } from '../Logo';
+import { useMediaQuery } from 'react-responsive';
+import { deviceSice } from '../responsive';
+import { slide as Menu } from 'react-burger-menu';
+import styles from './menuStyles';
 
 const Container = styled.div`
     ${tw`
@@ -51,6 +55,8 @@ const NavItem = tw.li`
 
 export const NavBar = () => {
 
+    const isMobile = useMediaQuery({ maxWidth: deviceSice });
+
     const navItems = (
         <NavItems>
             <NavItem>
@@ -68,6 +74,8 @@ export const NavBar = () => {
     return (
         <Container>
             <Logo />
+            {isMobile && <Menu right styles={styles}>{navItems}</Menu>}
+            {!isMobile && navItems}
         </Container>
     )
 }

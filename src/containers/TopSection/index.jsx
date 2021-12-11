@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import tw from 'twin.macro';
+import { NavBar } from '../../components/NavBar';
 
 const TopSectionContainer = styled.div`
     ${tw`
@@ -13,6 +14,8 @@ const TopSectionContainer = styled.div`
 
 export const TopSection = () => {
     return (
-        <TopSectionContainer></TopSectionContainer>
+        <TopSectionContainer>
+            <NavBar />
+        </TopSectionContainer>
     )
 }
