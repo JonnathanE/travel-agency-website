@@ -1,5 +1,6 @@
 import tw from 'twin.macro';
 import './App.css';
+import { Footer } from './components/Footer';
 import { ExploreSection } from './containers/ExploreSection';
 import { TopSection } from './containers/TopSection';
 
@@ -16,6 +17,7 @@ function App() {
     <AppContainer>
       <TopSection />
       <ExploreSection />
+      <Footer />
     </AppContainer>
   );
 }

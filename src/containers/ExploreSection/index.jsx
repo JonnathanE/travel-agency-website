@@ -108,23 +108,23 @@ export const ExploreSection = () => {
             <ExploreSectionWrapper>
                 <Carousel dynamicHeight={false}>
                     <Item>
-                        <img src={BaliTempleImg} />
+                        <img src={BaliTempleImg} alt='Bali Temple' />
                         <Description>Bali Temple</Description>
                     </Item>
                     <Item>
-                        <img src={RiceTerraceImg} />
+                        <img src={RiceTerraceImg} alt='Rice Terrace' />
                         <Description>Rice Terrace</Description>
                     </Item>
                     <Item>
-                        <img src={ExoticBromoImg} />
+                        <img src={ExoticBromoImg} alt='Exotic Bromo' />
                         <Description>Exotic Bromo</Description>
                     </Item>
                     <Item>
-                        <img src={MaleMaldivesImg} />
+                        <img src={MaleMaldivesImg} alt='Male Maldives' />
                         <Description>Male Maldives</Description>
                     </Item>
                     <Item>
-                        <img src={IceTeaImg} />
+                        <img src={IceTeaImg} alt='Ice Tea' />
                         <Description>Ice Tea</Description>
                     </Item>
                 </Carousel>
