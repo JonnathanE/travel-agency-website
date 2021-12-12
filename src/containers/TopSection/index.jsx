@@ -98,7 +98,7 @@ const DescriptionText = styled.p`
         text-white
         text-opacity-80
         mt-10
-        max-w-lg
+        max-w-xs
         lg:max-w-lg
         2xl:max-w-xl
     `}
