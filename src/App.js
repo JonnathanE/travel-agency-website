@@ -6,6 +6,7 @@ const AppContainer = tw.div`
   w-full
   h-full
   flex
+  overflow-hidden
 `;
 
 function App() {

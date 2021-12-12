@@ -57,7 +57,7 @@ const NavItem = tw.li`
 
 export const NavBar = () => {
 
-    const isMobile = useMediaQuery({ maxWidth: deviceSice });
+    const isMobile = useMediaQuery({ maxWidth: deviceSice.mobile });
 
     const navItems = (
         <NavItems>
