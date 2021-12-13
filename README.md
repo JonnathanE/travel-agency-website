@@ -1,6 +1,54 @@
-# Getting Started with Create React App
+# Travel Agency Website
+The project is a website of a travel agency
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Authors
+
+- [Jonnathan Espinoza](https://github.com/JonnathanE)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jede-portfolio.web.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonnathan-espinoza-604a41226)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/JonnathanE1)
+
+
+## Tech Stack
+
+**Client:** React (v5.0), Tailwind v3.0
+
+**Language:** JavaScript, Nodejs v14.18.0
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/JonnathanE/travel-agency-website.git
+```
+
+Go to the project directory
+
+```bash
+  cd travel-agency-website
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
 
 ## Available Scripts
 
