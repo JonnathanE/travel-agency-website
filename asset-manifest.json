@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/travel-agency-website/static/css/main.0e8b2141.css",
+    "main.js": "/travel-agency-website/static/js/main.3e7a0bf7.js",
+    "static/js/787.6dd605a0.chunk.js": "/travel-agency-website/static/js/787.6dd605a0.chunk.js",
+    "static/media/iglesia_san_francisco.jpg": "/travel-agency-website/static/media/iglesia_san_francisco.f326f5b716e19d87f953.jpg",
+    "static/media/culumbio_fin_mundo.jpg": "/travel-agency-website/static/media/culumbio_fin_mundo.2e591973ef5518a86d53.jpg",
+    "static/media/cotopaxi_volcan.jpg": "/travel-agency-website/static/media/cotopaxi_volcan.cb61dc1345c55014b321.jpg",
+    "static/media/catedral_cuenca.jpg": "/travel-agency-website/static/media/catedral_cuenca.9a2eed67b04d0d46212f.jpg",
+    "static/media/lago_ecuador.jpg": "/travel-agency-website/static/media/lago_ecuador.2bec10f996c0333df347.jpg",
+    "static/media/islas_galapagos.jpg": "/travel-agency-website/static/media/islas_galapagos.c8d20cab5b2ed6b2efe0.jpg",
+    "static/media/playa_ecuador.jpg": "/travel-agency-website/static/media/playa_ecuador.6008e863be9d8c03bfb0.jpg",
+    "index.html": "/travel-agency-website/index.html",
+    "main.0e8b2141.css.map": "/travel-agency-website/static/css/main.0e8b2141.css.map",
+    "main.3e7a0bf7.js.map": "/travel-agency-website/static/js/main.3e7a0bf7.js.map",
+    "787.6dd605a0.chunk.js.map": "/travel-agency-website/static/js/787.6dd605a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e8b2141.css",
+    "static/js/main.3e7a0bf7.js"
+  ]
+}
