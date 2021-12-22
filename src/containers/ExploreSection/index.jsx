@@ -6,11 +6,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 //Images
-import BaliTempleImg from "../../images/bali-temple.jpg";
-import RiceTerraceImg from "../../images/rice-terrace.jpg";
-import ExoticBromoImg from "../../images/exotic-bromo.jpg";
-import MaleMaldivesImg from "../../images/male-maldives.jpg";
-import IceTeaImg from "../../images/ice-tea.jpg";
+import BaliTempleImg from "../../images/cotopaxi_volcan.jpg";
+import RiceTerraceImg from "../../images/catedral_cuenca.jpg";
+import ExoticBromoImg from "../../images/iglesia_san_francisco.jpg";
+import MaleMaldivesImg from "../../images/lago_ecuador.jpg";
+import IceTeaImg from "../../images/culumbio_fin_mundo.jpg";
+import GalapagosIslands from "../../images/islas_galapagos.jpg";
 
 const ExploreSectionContainer = tw(Element)`
     w-full
@@ -77,7 +78,8 @@ const Item = styled.div`
     img {
         ${tw`
             max-w-full
-            max-h-full
+            max-h-96
+            object-cover
         `}
     }
 `;
@@ -103,29 +105,33 @@ export const ExploreSection = () => {
         <ExploreSectionContainer name='Explore'>
             <Title>Explore Travel Places</Title>
             <SectionInfo>
-                View our tour package and find out more about the places we will visit together on this journey to the beautifull of indonesia, exploring so many historical and amazing locations with the group and having so much fun.
+                View our tour package and find out more about the places we will visit together on this journey to the beautifull of Ecuador, exploring so many historical and amazing locations with the group and having so much fun.
             </SectionInfo>
             <ExploreSectionWrapper>
                 <Carousel dynamicHeight={false}>
                     <Item>
-                        <img src={BaliTempleImg} alt='Bali Temple' />
-                        <Description>Bali Temple</Description>
+                        <img src={BaliTempleImg} alt='Cotopaxi volcano' />
+                        <Description>Cotopaxi volcano</Description>
                     </Item>
                     <Item>
-                        <img src={RiceTerraceImg} alt='Rice Terrace' />
-                        <Description>Rice Terrace</Description>
+                        <img src={RiceTerraceImg} alt='Cuenca Cathedral' />
+                        <Description>Cuenca Cathedral</Description>
                     </Item>
                     <Item>
-                        <img src={ExoticBromoImg} alt='Exotic Bromo' />
-                        <Description>Exotic Bromo</Description>
+                        <img src={ExoticBromoImg} alt='San francisco Church' />
+                        <Description>San francisco Church</Description>
                     </Item>
                     <Item>
-                        <img src={MaleMaldivesImg} alt='Male Maldives' />
-                        <Description>Male Maldives</Description>
+                        <img src={MaleMaldivesImg} alt='National Park' />
+                        <Description>National Park</Description>
                     </Item>
                     <Item>
-                        <img src={IceTeaImg} alt='Ice Tea' />
-                        <Description>Ice Tea</Description>
+                        <img src={IceTeaImg} alt='End of the world swing' />
+                        <Description>End of the world swing</Description>
+                    </Item>
+                    <Item>
+                        <img src={GalapagosIslands} alt='Galapagos Islands' />
+                        <Description>Galapagos Islands</Description>
                     </Item>
                 </Carousel>
             </ExploreSectionWrapper>

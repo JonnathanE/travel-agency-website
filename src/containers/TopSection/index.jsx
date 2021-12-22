@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 import tw from 'twin.macro';
 import { NavBar } from '../../components/NavBar';
-import BackgroundImage from '../../images/indonesia-high-res.jpg';
+import BackgroundImage from '../../images/playa_ecuador.jpg';
 import { BsArrowDownCircle } from 'react-icons/bs';
 
 const TopSectionContainer = styled.div`
@@ -24,7 +24,7 @@ const LandingSection = styled.div`
     `}
 
     background-image: url(${BackgroundImage}),
-        linear-gradient(to left, #005b9c, #b1d1b148);
+        linear-gradient(to left, #004170, #b1d1b148);
     background-size: cover;
     background-position: bootom 10% left;
     background-blend-mode: overlay;
@@ -93,6 +93,7 @@ const OutlineTextSvg = styled.svg`
 
 const DescriptionText = styled.p`
     ${tw`
+        font-medium
         text-xl
         lg:text-lg
         text-white
@@ -129,9 +130,9 @@ export const TopSection = () => {
                         OF
                         <OutlineTextSvg viewBox='0 0 530 100'><text>PARADISE</text></OutlineTextSvg>
                     </FloatingText>
-                    <FloatingText>INDONESIA.</FloatingText>
+                    <FloatingText>ECUADOR.</FloatingText>
                     <DescriptionText>
-                        Let's esplore of the third largest countries in the world, namely indonesia. Enjoy 3 vacation packages at comoetitive prices and strong soul.
+                    Ecuador is a paradise located in the center of the world, multi-ethnic and multicultural. The best destination for tourism in South America, know more about the country of the four worlds. Enjoy 3 vacation packages at comoetitive prices and strong soul.
                     </DescriptionText>
                 </InfoSection>
                 <ViewMoreButton>
