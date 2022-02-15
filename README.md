@@ -46,9 +46,9 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Travel-Agency](https://user-images.githubusercontent.com/33469147/154123324-5d151b0f-edc5-4d03-b34e-f243735c96ee.png)
 
-
+![Travel-Agency-home](https://user-images.githubusercontent.com/33469147/154123520-d6aea1f0-84b3-47f8-85fb-c78e1e58a91f.png)
 
 ## Available Scripts
 

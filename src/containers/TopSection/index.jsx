@@ -132,7 +132,7 @@ export const TopSection = () => {
                     </FloatingText>
                     <FloatingText>ECUADOR.</FloatingText>
                     <DescriptionText>
-                    Ecuador is a paradise located in the center of the world, multi-ethnic and multicultural. The best destination for tourism in South America, know more about the country of the four worlds. Enjoy 3 vacation packages at comoetitive prices and strong soul.
+                    Ecuador is a paradise located in the center of the world, multi-ethnic and multicultural. The best destination for tourism in South America, know more about the country of the four worlds.
                     </DescriptionText>
                 </InfoSection>
                 <ViewMoreButton>

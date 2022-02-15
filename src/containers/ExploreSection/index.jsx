@@ -117,10 +117,10 @@ export const ExploreSection = () => {
                         <img src={RiceTerraceImg} alt='Cuenca Cathedral' />
                         <Description>Cuenca Cathedral</Description>
                     </Item>
-                    <Item>
+                    {/* <Item>
                         <img src={ExoticBromoImg} alt='San francisco Church' />
                         <Description>San francisco Church</Description>
-                    </Item>
+                    </Item> */}
                     <Item>
                         <img src={MaleMaldivesImg} alt='National Park' />
                         <Description>National Park</Description>
